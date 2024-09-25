@@ -1,0 +1,127 @@
+footer {
+    background: var(--dark-gray);
+    bottom: 0;
+    color: hsl(0, 0%, 100%);
+    left: 0;
+    padding: 0 20px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+  }
+  
+  footer a,
+  footer a:visited,
+  footer a:hover,
+  footer a:active,
+  footer a:focus {
+    color: var(--beige); /* Replace with the value of $beige */
+  }
+  
+  footer hr {
+    border-bottom: 1px solid var(--beige); /* Replace with the value of $beige */
+  }
+  
+  footer .coffee-shop-footer {
+    padding: 0 20px;
+  }
+  
+  footer .coffee-shop-footer .site-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 14px 0 26px;
+  }
+  
+  footer .coffee-shop-footer .site-links a,
+  footer .coffee-shop-footer .site-links a:visited,
+  footer .coffee-shop-footer .site-links a:hover,
+  footer .coffee-shop-footer .site-links a:active,
+  footer .coffee-shop-footer .site-links a:focus {
+    color:hsl(0, 0%, 100%);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  
+  footer .coffee-shop-footer .site-links a:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  footer .coffee-shop-footer .site-links a:hover {
+    color: var(--light-gray);
+    text-decoration: none;
+  }
+  
+  footer .coffee-shop-footer .other {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  @media all and (min-width: 620px) {
+    footer .coffee-shop-footer .other {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
+  }
+  
+  footer .coffee-shop-footer .other p {
+    font-size: 0.9rem;
+    margin: 6px 0;
+  }
+  
+  footer .coffee-shop-footer .other .social-media-links {
+    padding-bottom: 26px;
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  
+  @media all and (min-width: 620px) {
+    footer .coffee-shop-footer .other .social-media-links {
+      padding-bottom: 0;
+      -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+      order: 0;
+    }
+  }
+  
+  footer .coffee-shop-footer .other .social-media-links a,
+  footer .coffee-shop-footer .other .social-media-links a:visited,
+  footer .coffee-shop-footer .other .social-media-links a:hover,
+  footer .coffee-shop-footer .other .social-media-links a:active,
+  footer .coffee-shop-footer .other .social-media-links a:focus {
+    color: hsl(0, 0%, 100%); /* Change-color($black, $lightness: 100%) = white */
+    font-size: 1.5rem;
+  }
+  
+  footer .coffee-shop-footer .other .social-media-links a:hover {
+    color: var(--beige); /* Replace with the value of $beige */
+  }
+  
+  footer .coffee-shop-footer .other .social-media-links a:not(:last-child) {
+    margin-right: 6px;
+  }
+  
+  footer .app-footer {
+    font-size: 0.8rem;
+    padding: 14px 0;
+    text-align: center;
+  }
+  

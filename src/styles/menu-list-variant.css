@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  .heading {
+    margin-top: 5rem;
+    text-align: center;
+  }
+  
+  .underline {
+    background-color: hsl(39, 50%, 58%);
+    width: 4rem;
+    height: 0.3rem;
+    margin: auto;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    gap: 2rem;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: rgb(112, 80, 19);
+    font-size: 2rem;
+    padding: 1rem;
+    transition: background-color 500ms ease-in;
+    border-radius: 5px;
+  }
+  .button:hover {
+    background-color: hsl(39, 50%, 58%);
+    cursor: pointer;
+  }
+  
+  .itemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imageContainer {
+    margin-right: 2rem;
+  }
+  .image {
+    width: 250px;
+    height: 150px;
+    border: 5px solid rgb(112, 80, 19);
+    border-radius: 10px;
+  }
+  .itemContainer {
+    width: 550px;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+  }
+  .nameAndPriceContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px dotted rgb(112, 80, 19);
+    letter-spacing: 2px;
+  }
+  
+  .textContainer {
+    margin-top: 1rem;
+    color: rgb(71, 99, 110);
+  }
+  
